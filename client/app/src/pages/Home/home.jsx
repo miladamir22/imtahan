@@ -1,14 +1,14 @@
-
+import { BottomCard } from "../../components/BottomCard";
+import { FirstCard } from "../../components/FirstCard";
 
 function Home() {
+  return (
+    <>
+      <FirstCard />
 
-    return (
-      <>
-       
-  
-      </>
-    )
-  }
-  
-  export default Home
-  
+      <BottomCard/>
+    </>
+  );
+}
+
+export default Home;

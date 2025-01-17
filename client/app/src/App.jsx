@@ -7,10 +7,8 @@ import Add from './pages/Add'
 import Wishlist from './pages/Wishlist'
 import NotFound from './pages/Notfound'
 function App() {
-
   return (
     <>
-
       <Routes>
         <Route path='/' element={<Main />}>
           <Route index element={<Home />} />
@@ -23,5 +21,4 @@ function App() {
     </>
   )
 }
-
 export default App

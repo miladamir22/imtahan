@@ -44,3 +44,13 @@
     position: absolute;
     top: 2%;
 }
+
+.readmore {
+    display: flex;
+    gap: 60px;
+}
+
+.dd{
+    display: flex;
+    flex-direction: row;
+}
